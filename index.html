@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameModel</title>
+    <link rel="stylesheet" href="./Assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-head">
+            <div>
+                <button type="button" class="btn">Again!</button>
+            </div>
+            <div>
+                <h2>&lt;Between 1 and 20&gt;</h2>
+            </div>
+        </div>
+        <h1>Guess My Number!</h1>
+        <hr>
+        <h4 class="random-value">?</h4>
+
+        <div class="footer">
+            <div class="footer-left-ccontent">
+
+                <div> <input class="empty-box" type="number"></input></div>
+                <div><button type="button" class="check-box">Check!</button></div>
+            </div>
+            <div class="footer-right-content">
+                <div class="game-over">
+                    <h5>Start guessing....</h5>
+                    <span class="game-res"></span>
+                </div>
+                <div class="game-over winning" >
+                    <h5 id="score">💯 Score : </h5>
+                    <span class="game-win"></span>
+                </div>
+                <div class="game-over">
+                    <h5>🥇 HighScore : </h5>
+                    <span class="game-highscore"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./Assets/JS/script.js"></script>
+</body>
+
+</html>

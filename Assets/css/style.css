@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    font-family: 'Press Start 2P', cursive;
+}
+.container{
+    padding: 30px 20px;
+ background-color: #000;
+ height: 100vh;
+}
+.container-head{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    width: 170px;
+    padding: 20px 30px;
+    border: 1px solid #fff;
+    color: #000;
+    background-color: #fff;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+}
+h2{
+    color: #fff;
+    font-size: 20px;
+}
+h1{
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+h4{
+    margin: auto;
+    margin-top: -50px;
+    color: #000;
+    background-color: #fff;
+    font-size:40px ;
+    width: 150px;
+    padding: 30px 40px;
+    text-align: center;
+}
+.empty-box{
+    border: 2px solid #fff;
+    width: 250px;
+    padding: 30px 100px;
+    background-color: inherit;
+    color: #fff;
+    
+}
+.check-box{
+    margin-top: 50px;
+    width: 170px;
+    padding: 20px 30px;
+    border: 1px solid #fff;
+    color: #000;
+    cursor: pointer;
+    background-color: #fff;
+    margin-left: 20px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 50px; */
+}
+.footer-left-ccontent{
+    margin-top: 90px;
+}
+.footer-right-content{
+    margin-top: 45px;
+}
+h5{
+    font-size: 18px;
+    line-height: 4;
+    color: #fff;
+}
+.game-win{
+    color: #fff;
+    font-size: 15px;
+}
+.game-over{
+    display: flex;
+    align-items: center;
+}
+.game-highscore{
+    color: #fff;
+    font-size: 15px;
+}
